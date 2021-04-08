@@ -1,0 +1,8 @@
+source "https://rubygems.org"
+
+gem 'gem_two', path: '../gem_two'
+gem 'sorbet'
+gem 'sorbet-runtime'
+
+gemspec
+

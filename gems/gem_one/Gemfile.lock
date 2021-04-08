@@ -1,0 +1,32 @@
+PATH
+  remote: ../gem_two
+  specs:
+    gem_two (0.0.1)
+
+PATH
+  remote: .
+  specs:
+    gem_one (0.0.1)
+
+GEM
+  remote: https://rubygems.org/
+  specs:
+    rake (13.0.3)
+    sorbet (0.5.6366)
+      sorbet-static (= 0.5.6366)
+    sorbet-runtime (0.5.6366)
+    sorbet-static (0.5.6366-universal-darwin-14)
+
+PLATFORMS
+  ruby
+
+DEPENDENCIES
+  bundler (~> 2.0)
+  gem_one!
+  gem_two!
+  rake
+  sorbet
+  sorbet-runtime
+
+BUNDLED WITH
+   2.1.4

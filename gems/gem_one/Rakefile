@@ -1,0 +1,11 @@
+require "bundler/gem_tasks"
+require "rspec/core/rake_task"
+
+RSpec::Core::RakeTask.new(:spec) do |t|
+  if ARGV[1]
+    t.pattern = "*/#{ARGV[1]}"
+  end
+end
+
+task :default => :spec
+
